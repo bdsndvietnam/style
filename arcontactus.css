@@ -5,7 +5,7 @@
 .arcontactus-widget.md .arcontactus-message-button,.arcontactus-widget.md.arcontactus-message{width:60px;height:60px}
 .arcontactus-widget{opacity:0;transition:.2s opacity}
 .arcontactus-widget *{box-sizing:border-box}
-.arcontactus-widget.left.arcontactus-message{right:20px;left:auto}
+.arcontactus-widget.left.arcontactus-message{left:20px;right:auto}
 .arcontactus-widget.left .arcontactus-message-button{right:auto;left:0}
 .arcontactus-widget.left .arcontactus-prompt{left:80px;right:auto;transform-origin:0 50%}
 .arcontactus-widget.left .arcontactus-prompt:before{border-right:8px solid #FFF;border-top:8px solid transparent;border-left:8px solid transparent;border-bottom:8px solid transparent;right:auto;left:-15px}
@@ -34,7 +34,7 @@
 .arcontactus-widget.active{opacity:1}
 .arcontactus-widget .icons.hide,.arcontactus-widget .static.hide{opacity:0;transform:scale(0)}
 .arcontactus-widget.arcontactus-message{z-index:10000;right:20px;bottom:20px;position:fixed!important;height:70px;width:70px}
-.arcontactus-widget .arcontactus-message-button{width:70px;position:absolute;height:70px;right:0;background-color:red;border-radius:50px;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer}
+.arcontactus-widget .arcontactus-message-button{width:70px;position:absolute;height:70px;right:1170px;background-color:red;border-radius:50px;-webkit-box-sizing:border-box;box-sizing:border-box;text-align:center;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;cursor:pointer}
 .arcontactus-widget .arcontactus-message-button p{font-family:Ubuntu,Arial,sans-serif;color:#fff;font-weight:700;font-size:10px;line-height:11px;margin:0}
 .arcontactus-widget .arcontactus-message-button .pulsation{width:84px;height:84px;background-color:red;border-radius:50px;position:absolute;left:-7px;top:-7px;z-index:-1;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);-webkit-animation:arcontactus-pulse 2s infinite;animation:arcontactus-pulse 2s infinite}
 .arcontactus-widget .arcontactus-message-button .icons{background-color:#fff;width:44px;height:44px;border-radius:50px;position:absolute;overflow:hidden;top:50%;left:50%;margin-top:-22px;margin-left:-22px}
@@ -56,7 +56,7 @@
 .arcontactus-widget .arcontactus-close{color:#FFF}
 .arcontactus-widget .arcontactus-close svg{-webkit-transform:rotate(180deg) scale(0);-ms-transform:rotate(180deg) scale(0);transform:rotate(180deg) scale(0);-webkit-transition:ease-in .12s all;-o-transition:ease-in .12s all;transition:ease-in .12s all;display:block}
 .arcontactus-widget .arcontactus-close.show-messageners-block svg{-webkit-transform:rotate(0) scale(1);-ms-transform:rotate(0) scale(1);transform:rotate(0) scale(1)}
-.arcontactus-widget .arcontactus-prompt,.arcontactus-widget .messangers-block{background:center no-repeat #FFF;box-shadow:0 0 10px rgba(0,0,0,.6);width:235px;position:absolute;bottom:80px;right:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;padding:14px 0;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:7px;-webkit-transform-origin:80% 105%;-ms-transform-origin:80% 105%;transform-origin:80% 105%;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);-webkit-transition:ease-out .12s all;-o-transition:ease-out .12s all;transition:ease-out .12s all;z-index:10000}
+.arcontactus-widget .arcontactus-prompt,.arcontactus-widget .messangers-block{background:center no-repeat #FFF;box-shadow:0 0 10px rgba(0,0,0,.6);width:235px;position:absolute;bottom:80px;right:1090px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;padding:14px 0;-webkit-box-sizing:border-box;box-sizing:border-box;border-radius:7px;-webkit-transform-origin:80% 105%;-ms-transform-origin:80% 105%;transform-origin:80% 105%;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);-webkit-transition:ease-out .12s all;-o-transition:ease-out .12s all;transition:ease-out .12s all;z-index:10000}
 .arcontactus-widget .arcontactus-prompt:before,.arcontactus-widget .messangers-block:before{position:absolute;bottom:-7px;right:25px;left:auto;display:inline-block!important;border-right:8px solid transparent;border-top:8px solid #FFF;border-left:8px solid transparent;content:''}
 .arcontactus-widget .arcontactus-prompt.show-messageners-block,.arcontactus-widget .messangers-block.show-messageners-block{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
 .arcontactus-widget .arcontactus-prompt{color:#787878;font-family:Arial,sans-serif;font-size:16px;line-height:18px;width:auto;bottom:10px;right:80px;white-space:nowrap;padding:18px 20px 14px}
